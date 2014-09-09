@@ -12,11 +12,11 @@ Usage
 
 This script takes in 5 arguments in this order:
 
-1) color of watch you want to be notified about (gray/black)
-2) e-mail address to send e-mails from (I use my own email for simplicity)
-3) password for e-mail address entered in argument 2
-4) e-mail address to send notification e-mail to
-5) how often you want to check the webpage (in seconds)
+* color of watch you want to be notified about (gray/black)
+* e-mail address to send e-mails from (I use my own email for simplicity)
+* password for e-mail address entered in argument 2
+* e-mail address to send notification e-mail to
+* how often you want to check the webpage (in seconds)
     NOTE: IF YOU SET THIS TO A SMALL NUMBER AND THE WATCH IS AVAILABLE, YOU WILL GET A BUNCH OF EMAILS
 
 
