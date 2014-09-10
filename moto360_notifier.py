@@ -24,13 +24,13 @@ sender = username
 receivers = argv[4]
 black_available_message = """Subject: Black Moto360 is Available!
 
-Hello, {} the Moto360 in black is currently available!!!!!!
+Hello, {0} the Moto360 in black is currently available!!!!!!
 
 Grab it here: goo.gl/Vm6pzw""".format(argv[2])
 
 gray_available_message = """Subject: Gray Moto360 is Available!
 
-Hello, {} the Moto360 in gray is currently available!!!!!!
+Hello, {0} the Moto360 in gray is currently available!!!!!!
 
 Grab it here: goo.gl/1FJM8p""".format(argv[2])
 
@@ -72,9 +72,9 @@ while True:
     except socket.error:
       print "Socket Error: unable to send email"
 
-    print "{} Moto360 is available right now!".format(argv[1])
+    print "{0} Moto360 is available right now!".format(argv[1])
   else:
-    print "{} Moto360 not available right now".format(argv[1])
+    print "{0} Moto360 not available right now".format(argv[1])
 
   # Repeat every x seconds
   time.sleep(float(argv[5]))
